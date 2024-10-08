@@ -70,5 +70,11 @@ Your branch is up to date with 'origin/main'.
 nothing to commit, working tree clean"
 
 6)
+Erreur car tous le monde push en même temps, il faut mettre à jour la copie locale
+
+11)
+
+on voit apparaitre notre commit et les changements dans qu'on a fait dans mon fichier et celui du voisin.
+
 
 
