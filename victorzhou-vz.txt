@@ -1,0 +1,64 @@
+Question 1 : 
+ 
+Le caractère "&" permet de lancer un programme en arrière plan.
+
+Question 2 :
+
+Le répertoire racine sous GNU/Linux s'appelle "root" et il est représenté par un "/" .
+
+Question 3 :
+	
+Les commandes qui permettent de toujours retourner à la racine de son compte sont :
+
+cd
+cd ~
+
+Question 4 :
+
+La commande ls ~/* va lister tous les répertoires et les fichiers qui sont présents dans le répertoire personnel de l'utilisateur courant.
+
+
+Question 5 :
+
+Commande permettant de copier les fichiers ex2.c et IMG216.jpg dans le répertoire TP2 :
+
+cp ~/Images/IMG216.jpg ~/Documents/TP/TP2
+cp ~/Documents/TP/TP1/ex2.c ~/Documents/TP/TP2
+
+Question 6 : 
+
+Ajouter le chemin du repertoire qui contient  a.out dans la variable PATH.
+
+
+Question 7 :
+
+Le resultat de la commande  echo 'OPI c’est utile..' | wc -l est 1 qui s'affiche dans le terminal.
+
+Question 8 :
+
+La meilleure façon de ne pas afficher les messages d’erreurs d’une commande dans le terminal est "commande 2>/dev/null" cela va rediriger le flux d'erreurs standard (stderr) vers /dev/null, un fichier spécial qui "jette" tout ce qui lui est envoyé.
+
+
+Question 9 :
+
+Avec la commande : ps -ef | grep -c evince, on cherche à compter le nombre de processus liés à l'application Evince ,un lecteur de documents pdf sous Linux, qui sont actuellement en cours d'exécution sur le système.
+
+Question 10 :
+
+Les commandes qui permettent d'ajouter les droits en lecture et en écriture uniquement au groupe panda sur le fichier file1 sont :
+
+chmod 660 file1
+chmod g+r,g+w file1
+
+Question 11 :
+
+La commande "cut -f1,5 ../../../liste_main3_2023_2024.csv | grep Non" affiche les numéros correspondants aux personnes qui ne sont pas inscrites ("Non" à coté du nom de la personne).
+Le résultat de cette commande est donc :
+
+3224931 Non
+3284840 Non
+4035745 Non
+4210027 Non
+3673118 Non 
+
+
