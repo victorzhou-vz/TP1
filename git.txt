@@ -1,0 +1,74 @@
+Exercice 1:
+
+2) Cela a créé les répertoires suivants : 
+
+.git
+branches
+hooks
+info
+objects
+refs
+
+
+4)
+Message d'erreur : "On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	fichier.txt
+
+nothing added to commit but untracked files present (use "git add" to track)"
+
+
+Ce message nous indique d'utiliser la commande git add 
+Le fichier n'est pas tracké
+
+5)
+message :"On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   fichier.txt
+
+"
+
+On a un fichier tracké
+
+7)message :
+"On branch main
+nothing to commit, working tree clean"
+
+Statut du répertoire : working tree clean
+
+8) La commande git log -p affiche des informations (date, heure,etc.)  sur l'opération effectuée.
+
+
+
+9) La commande git diff affiche les modifications effectuées sur le fichier 
+
+
+11) On voit README.md et fichier.txt que l'on avait crée dans notre répertoire sur le serveur GitHub
+
+
+12)
+
+
+
+Exercice 2 :
+
+2)Cela a créé le répertoire tp1_ex2 et on peut voir les fichiers de toute la classe
+
+3) git status retourne :
+
+"On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean"
+
+6)
+
+
